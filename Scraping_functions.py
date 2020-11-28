@@ -86,6 +86,22 @@ def abrir_zap(localization, acao, tipo, inclui_proximos = 'nao', url_zap = "http
 
 
 def extrair_informacoes(i):
+     '''
+    
+    Parameters
+    ----------
+    i : int
+        The number of the house card to get information from.
+
+    Returns
+    -------
+    row : list
+        A list containing house information, title, address, selling price, 
+        renting price, condominium price, IPTU (housing tax), area, number of rooms,
+        parking spots, bathrooms, real state agency, Creci (agenci number), 
+        caracteristics, description, latitude and longitude.
+
+    '''
     #Getting the house cards ans selcting only the wanted ones
     house_card = driver.find_elements_by_class_name('card-listing')[:quant_local]
     
