@@ -4,3 +4,6 @@ This program aims to help people extract Zap Imóveis website. Using Selenium, i
 
 The function 'extrair_informacoes' returns 'row': a list containing house information, title, address, selling price, renting price, condominium price, IPTU (housing tax), area, number of rooms, parking spots, bathrooms, real state agency, Creci (agenci number), caracteristics, description, latitude and longitude: 
 [titulo,endereco,preco_venda,preco_aluguel,condominio,IPTU,area,quartos,vagas,banheiros,imobiliaria,Creci,caracteristicas,descricao,latitude,longitude]
+
+
+Thanks for https://github.com/GeovRodri , for the inspiration and some of the insights!
