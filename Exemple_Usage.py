@@ -5,7 +5,7 @@ Created on Sat Nov 28 18:48:04 2020
 @author: femdi
 """
 '''
-AFTER RUNNING THE FUNCTIONS FROM 
+AFTER RUNNING THE FUNCTIONS FROM 'Scraping_functions.py'
 '''
 
 
