@@ -33,7 +33,6 @@ columns = ['Título','Endereço','Preço de Venda','Preço de Aluguel','Condomí
 tabela_imoveis = pd.DataFrame(columns = columns)
 
 #Selection variables to be used in the URL
-localization="sp+sao-paulo+zona-sul+capao-redondo"
 acao = 'aluguel'
 tipo= 'imoveis'
 inclui_proximos = 'nao'
