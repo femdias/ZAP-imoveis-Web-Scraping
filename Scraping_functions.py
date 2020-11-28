@@ -10,6 +10,29 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 def abrir_zap(localization, acao, tipo, inclui_proximos = 'nao', url_zap = "https://www.zapimoveis.com.br/%(acao)s/%(tipo)s/%(localization)s/"):
+      '''
+    
+
+    Parameters
+    ----------
+    localization : str
+        The neighborhood URL substring, can be found by entering the website
+        typing the neighborhood in the search bar, and then copying it from the url.
+    acao : str
+        'aluguel' or 'venda', to search for renting or selling houses.
+    tipo : str
+        'imoveis' or 'casas' or 'apartamentos', to search for all properties, only apartments or only houses.
+    inclui_proximos : str, optional
+        'nao' or 'sim', to search for only property in the neighborhood, or also properties close to it. The default is 'nao'.
+    url_zap : str, optional
+        The website generic URL. The default is "https://www.zapimoveis.com.br/%(acao)s/%(tipo)s/%(localization)s/".
+
+    Returns
+    -------
+    quant_local: int
+        The number of house cards to be used in that page.
+
+    '''
   
     # Opening URL in Driver
     driver.get(url_zap % vars())
