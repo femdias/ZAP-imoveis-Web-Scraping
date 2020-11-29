@@ -37,7 +37,9 @@ acao = 'aluguel'
 tipo= 'imoveis'
 inclui_proximos = 'nao'
 bairros=["sp+sao-paulo+zona-sul+capao-redondo",'sp+sao-paulo+zona-sul+jd-sandra',
-         'sp+sao-paulo+zona-sul+vl-das-belezas']
+         'sp+sao-paulo+zona-sul+jd-eledy','sp+sao-paulo+zona-sul+jd-iae',
+         'sp+sao-paulo+zona-sul+jd-ipe','sp+sao-paulo+zona-sul+jd-irapiranga',
+         'sp+sao-paulo+zona-sul+pq-independencia']
 
 # For each neghborhood
 for loc in bairros:
